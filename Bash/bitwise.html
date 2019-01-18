@@ -1,0 +1,23 @@
+<html>
+<title>Bitwise</title>
+<body>
+<h1>Quiz Time!</h1>
+<h2>Bitwise ^</h2>
+<p>
+<form action = "cgi-bin/bitwise.py" method="GET">
+<p>
+2^3=<input type="text" name="answer">
+<p>
+What operation next?
+<p>
+<input type="radio" name="operation" value="^">XOR
+<input type="radio" name="operation" value="7">AND
+<input type="radio" name="operation" value="|">OR
+<input type="radio" name="operation" value="<<">Left-shift
+<p>
+<input type="submit" value="submit">
+<input type="hidden" name="number" value="1">
+<input type="hidden" name="correct" value="0">
+</form>
+</body>
+</html>
